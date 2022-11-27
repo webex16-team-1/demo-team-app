@@ -2,7 +2,7 @@
   <footer class="footer">
     <div>
       This Application is made by
-      <span class="names">win, dukky, takaba, and yuki</span>.
+      <span class="names">win, zukky, takaba, and yuki</span>.
     </div>
     <small
       >The Application is created as a part of the GeekSalon WebExpert

@@ -27,7 +27,7 @@ export default {
       feedback: "",
       quiz: {
         text: "この星の名前は何でしょう？",
-        image: "@/images/Ganymede.jpg",
+        image: "Ganymede.jpg",
         choices: [
           {
             text: "ゴリアテ",
