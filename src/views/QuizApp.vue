@@ -2,11 +2,7 @@
   <h1>Vue クイズ</h1>
   <div class="app">
     <h2>Q. {{ quiz.text }}</h2>
-    <img
-      class="quiz-image"
-      src="https://via.placeholder.com/300x300"
-      alt="クイズタイトル"
-    />
+    <img class="quiz-image" v-bind:src="quizImagePath" alt="クイズタイトル" />
     <div class="container">
       <button
         v-for="(choice, i) in quiz.choices"
@@ -60,8 +56,9 @@ export default {
   },
   computed: {
     quizImagePath() {
-      return "./images/" + this.quiz.image
-    },
+      console.log(this.quiz.image)
+      return require("../assets/images/" + this.quiz.image)
+    }, //Ganymede.jpg
   },
 }
 </script>
